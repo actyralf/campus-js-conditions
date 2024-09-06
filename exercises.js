@@ -8,7 +8,11 @@
 
 let number = 7;
 
-// write your code here
+if (number > 10) {
+  console.log("The number is greater than 10");
+} else {
+  console.log("The number is not greater than 10");
+}
 
 // Exercise 2
 // Even or odd
@@ -17,7 +21,11 @@ let number = 7;
 // If it is even, print "The number is even".
 // If it is odd, print "The number is odd".
 
-// write your code here
+if (number % 2 === 0) {
+  console.log("The number is even");
+} else {
+  console.log("The number is odd");
+}
 
 // Exercise 3
 // Age Verification
