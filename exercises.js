@@ -8,7 +8,11 @@
 
 let number = 7;
 
-// write your code here
+if (number > 10) {
+  console.log("The number is greater than 10");
+} else {
+  console.log("The number is not greater than 10");
+}
 
 // Exercise 2
 // Even or odd
